@@ -31,13 +31,13 @@ const singleWord = {
 export default function AnimatedText({ text, className = "" }) {
   return (
     <div
-      className={`w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden ${className}`}
+      className={`w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden ${className} sm:py-0`}
     >
       <motion.h1
         variants={quote}
         initial="initial"
         animate="animate"
-        className={`inline-block w-full text-dark dark:text-light font-bold  text-8xl ${className}`}
+        className={`inline-block w-full text-dark dark:text-light font-bold text-8xl ${className}`}
       >
         {text.split(" ").map((word, index) => (
           <motion.span

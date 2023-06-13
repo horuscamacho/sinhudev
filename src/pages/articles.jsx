@@ -34,7 +34,7 @@ const MovingImg = ({ title, img, link }) => {
       onMouseMove={handleMouse}
       onMouseLeave={handleMouseLeave}
     >
-      <h2 className="capitalize text-cl font-semibold hover:underline">
+      <h2 className="capitalize text-cl font-semibold hover:underline dark:decoration-light">
         {title}
       </h2>
       <FramerImage
@@ -45,6 +45,8 @@ const MovingImg = ({ title, img, link }) => {
         src={img}
         alt={title}
         className="z-10 w-96 h-auto hidden absolute rounded-lg"
+        priority
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
       />
     </Link>
   );
@@ -55,7 +57,7 @@ const Article = ({ img, title, date, summary, link }) => {
     <motion.li
       initial={{ y: 200 }}
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
-      className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark firs:mt-0 border border-solid border-dark border-r-4 border-b-4"
+      className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark firs:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:border-light dark:text-light dark:bg-dark"
     >
       <MovingImg title={title} img={img} link={link} />
       <span className="text-green-800 font-semibold pl-4">{date}</span>
@@ -65,8 +67,8 @@ const Article = ({ img, title, date, summary, link }) => {
 
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
   return (
-    <li className="relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl">
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl" />
+    <li className="relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl dark:bg-dark dark:border-light ">
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:border-light" />
       <Link
         href={link}
         target="_blank"
@@ -78,6 +80,8 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
           src={img}
           alt={title}
           className="w-full h-auto"
+          priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
         />
       </Link>
       <Link href={link} target="_blank">
@@ -101,7 +105,7 @@ export default function Articles() {
           content="Pequeña colección de posts sobre programación, desarrollo web y tecnología."
         />
       </Head>
-      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
+      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="mt-16">
           <AnimatedText
             text="Perspectiva y primeros pasos en el desarrollo web."

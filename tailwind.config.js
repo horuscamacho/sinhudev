@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         mont: ["var(--font-mont)", ...fontFamily.sans],
       },
+
       colors: {
         dark: "#1b1b1b",
         light: "#f5f5f5",
@@ -20,6 +21,14 @@ module.exports = {
       animation: {
         "spin-slow": "spin 10s linear infinite",
       },
+    },
+    screens: {
+      "2xl": { max: "1535px" },
+      xl: { max: "1279px" },
+      lg: { max: "1023px" },
+      md: { max: "767px" },
+      sm: { max: "639px" },
+      xs: { max: "479px" },
     },
   },
   plugins: [],
