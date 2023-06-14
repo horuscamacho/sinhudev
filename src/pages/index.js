@@ -6,9 +6,9 @@ import profilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { ArrowCV } from "@/components/Icons";
-import { useState } from "react";
 import HireMe from "@/components/HireMe";
 import mac from "../../public/images/svgs/mac.svg";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +19,7 @@ export default function Home() {
         <title>Sinhudev</title>
         <meta name="description" content="" />
       </Head>
+      <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
