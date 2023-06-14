@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
           property="og:description"
           content="Aquí encontrarás más que solo desarrollo..."
         />
-        <meta content="#58E6D9" name="theme-color" />
+        <meta content="#0891b2" name="theme-color" />
         <meta
           property="og:image"
           content="https://i.postimg.cc/9fPkQpy6/sinhudev-high-resolution-logo-white-on-black-background.png"
