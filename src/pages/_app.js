@@ -14,6 +14,16 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="SINHUDEV" />
+        <meta
+          property="og:description"
+          content="Aquí encontrarás más que solo desarrollo..."
+        />
+        <meta content="#58E6D9" name="theme-color" />
+        <meta
+          property="og:image"
+          content="https://i.postimg.cc/9fPkQpy6/sinhudev-high-resolution-logo-white-on-black-background.png"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
