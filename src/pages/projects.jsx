@@ -22,6 +22,8 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           transition={{ duration: 0.2 }}
           src={img}
           alt={title}
+          width={1400}
+          height={700}
           className="w-full h-auto"
           priority
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
@@ -77,6 +79,8 @@ const Project = ({ title, img, link, github, type }) => {
           src={img}
           alt={title}
           className="w-full h-auto"
+          width={1000}
+          height={800}
         />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4 ">
@@ -116,10 +120,10 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>SinhuDev | Projects Page</title>
+        <title>Sinhu Dev | Proyectos</title>
         <meta
           name="Proyectos"
-          content="Una lista de mis proyectos realizados personalmente o de forma Freelance."
+          content="Ideas personales, proyectos para particulaes e ideas para practicar ."
         />
       </Head>
       <TransitionEffect />
@@ -127,81 +131,45 @@ export default function Projects() {
         <Layout className="pt-16">
           <AnimatedText
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
-            text="Lo imaginas, lo tienes."
+            text="Proyectos Personales Back End, Front End y Full Stack"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
-local currency."
-                img={project1}
+                title="Yard Store - React"
+                summary="Tienda en línea de productos con peticiones a API, carrito de compras."
+                img={"https://i.postimg.cc/V69sWM5W/My-day-app-1.png"}
                 link="https://www.google.com"
                 github="https://www.google.com"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
-local currency."
-                img={project1}
+                title="My Day App - Angular"
+                img="https://i.postimg.cc/Qx9VKBhV/My-day-app.png"
                 link="https://www.google.com"
                 github="https://www.google.com"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
-local currency."
-                img={project1}
+                title="API - Node JS"
+                img={"https://i.postimg.cc/s2WKKPS8/My-day-app-4.png"}
                 link="https://www.google.com"
                 github="https://www.google.com"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
-local currency."
-                img={project1}
+                title="Twitter Clone - Next JS"
+                summary="Clon de Twitter con autenticación, registro de usuarios, comentarios, likes, follows etc."
+                img={"https://i.postimg.cc/3JyGg82f/My-day-app-5.png"}
                 link="https://www.google.com"
                 github="https://www.google.com"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
-local currency."
-                img={project1}
-                link="https://www.google.com"
-                github="https://www.google.com"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your
-local currency."
-                img={project1}
-                link="https://www.google.com"
-                github="https://www.google.com"
-                type="Featured Project"
+                type="Practice Project"
               />
             </div>
           </div>

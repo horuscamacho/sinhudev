@@ -48,6 +48,8 @@ const MovingImg = ({ title, img, link }) => {
         className="z-10 w-96 h-auto hidden absolute rounded-lg md:!hidden"
         priority
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+        width={1400}
+        height={700}
       />
     </Link>
   );
@@ -81,6 +83,8 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           src={img}
+          width={1400}
+          height={700}
           alt={title}
           className="w-full h-auto"
           priority
@@ -105,34 +109,34 @@ export default function Articles() {
         <title>SinhuDev | Articles Page</title>
         <meta
           name="description"
-          content="Pequeña colección de posts sobre programación, desarrollo web y tecnología."
+          content="Navegando en el código: Artículos para desarrolladores web."
         />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="mt-16">
           <AnimatedText
-            text="Perspectiva y primeros pasos en el desarrollo web."
+            text="Navegando en el código: Artículos para desarrolladores web"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               time={" 5min lectura"}
               link={"/"}
-              title={"Build a blog with Next.js and TailwindCSS"}
-              img={article1}
+              title={"Bootcamps: MITO O REALIDAD"}
+              img={"https://i.postimg.cc/Fzww7FQk/Now-Open-1.png"}
               summary={
-                "Learn how to build a blog with Next.js and TailwindCSS using Markdown files as the content source."
+                "¿Valen realmente la pena los Bootcamps que ofrecen milagrosamente aprender a desarrollar aplicaciones en tiempos record entre 4 y 12 meses?."
               }
             />
 
             <FeaturedArticle
               time={" 5min lectura"}
               link={"/"}
-              title={"Build a blog with Next.js and TailwindCSS"}
-              img={article1}
+              title={"En búsqueda del primer empleo como desarrollador."}
+              img={"https://i.postimg.cc/v8vJyyjB/Now-Open-4.png"}
               summary={
-                "Learn how to build a blog with Next.js and TailwindCSS using Markdown files as the content source."
+                "'Recientemente me gradué de un curso intensivo, bootcamp o carrera técnica...', realidad de la oferta y demanda de desarrolladores."
               }
             />
           </ul>
@@ -141,53 +145,11 @@ export default function Articles() {
           </h2>
           <ul>
             <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              }
-              img={article2}
-              date={"March 22, 2023"}
+              title={"Ruta para convertirse en un desarrollador web"}
+              img={"https://i.postimg.cc/3JtWdPyr/Now-Open-5.png"}
+              date={"Julio 07, 2023"}
               link={"/"}
             />{" "}
-            <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              }
-              img={article2}
-              date={"March 22, 2023"}
-              link={"/"}
-            />{" "}
-            <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              }
-              img={article2}
-              date={"March 22, 2023"}
-              link={"/"}
-            />{" "}
-            <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              }
-              img={article2}
-              date={"March 22, 2023"}
-              link={"/"}
-            />{" "}
-            <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              }
-              img={article2}
-              date={"March 22, 2023"}
-              link={"/"}
-            />{" "}
-            <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              }
-              img={article2}
-              date={"March 22, 2023"}
-              link={"/"}
-            />
           </ul>
         </Layout>
       </main>

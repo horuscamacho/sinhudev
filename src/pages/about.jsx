@@ -48,7 +48,7 @@ export default function about() {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Viviendo el sueño!"
+            text="Desarrollo Web con Pasión, Resilencia y Persistencia"
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 ">
@@ -57,25 +57,39 @@ export default function about() {
                 Acerca de mí
               </h2>
               <p className="font-medium ">
-                Hola, mi nombre es Horus Sinhue, desarrollador encargado de
-                construir y mantener este sitio web. Me apasiona el mundo de la
-                Tecnología, desde pequeño mi sueño fue ser un gran desarrollador
-                y todos los días trabajo en ello para lograrlo. Me encanta
-                aprender nuevas tecnologías además de ofrecer soluciones
-                digitales para las personas que lo necesiten.
+                ¡Hola! Mi nombre es Horus Sinhue Camacho y soy un apasionado
+                desarrollador Full Stack. Mi mundo gira en torno al desarrollo
+                web, y me encanta sumergirme en el fascinante universo de la
+                programación. Mi enfoque principal se centra en el lenguaje
+                Javascript, y he adquirido sólidos conocimientos en diversas
+                tecnologías y herramientas. En el lado del frontend, estoy
+                familiarizado con librerías como React, así como con frameworks
+                como Angular, Vue y Next.js. Disfruto creando interfaces
+                dinámicas y atractivas, y estoy constantemente buscando formas
+                de mejorar la experiencia del usuario. En el lado del backend,
+                utilizo Node.js, Express y Sequelize como ORM para interactuar
+                con bases de datos, siendo PostgreSQL y MongoDB mis preferidas.
+                Me emociona construir sistemas robustos y escalables, y estoy
+                constantemente aprendiendo nuevas técnicas y prácticas para
+                mejorar mis habilidades en el desarrollo web.
               </p>
               <p className="my-4 font-medium ">
-                - Curse la carrera de Ingeniería en Sistemas Computacionales
-                algunos semestres en la Universidad Tec Milenio, pero por
-                cuestiones personales no pude terminarla, sin embargo, eso no me
-                detuvo para seguir aprendiendo y desarrollando mis habilidades
-                como desarrollador.
+                Lo que más amo de la programación es la posibilidad de enfrentar
+                desafíos constantes y la oportunidad de aprender algo nuevo en
+                cada proyecto en el que me involucro. Soy una persona
+                persistente y nunca me rindo ante un problema. Siempre busco
+                soluciones innovadoras y creativas, y me siento satisfecho
+                cuando logro superar obstáculos y entregar soluciones de alta
+                calidad. Siempre estoy abierto a nuevas oportunidades de
+                crecimiento y colaboración. Si estás buscando un desarrollador
+                Full Stack comprometido, apasionado y altamente motivado, ¡me
+                encantaría ser parte de tu equipo!
               </p>
               <p className="font-medium ">
-                - Fue en el año 2019 cuando decidí aprender en forma y fue
-                entonces que tuve mi primer contacto con un Bootcamp. Desde
-                entonces he estado aprendiendo y desarrollando mis habilidades
-                como desarrollador.
+                ¡No dudes en ponerse en contacto conmigo para discutir posibles
+                proyectos o simplemente para compartir ideas! Estoy ansioso por
+                seguir aprendiendo, creciendo y construyendo cosas increíbles en
+                el mundo del desarrollo web.
               </p>
             </div>
 

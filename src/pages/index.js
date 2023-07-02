@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sinhudev</title>
+        <title>Sinhu - Dev</title>
         <meta name="description" content="" />
       </Head>
       <TransitionEffect />
@@ -49,7 +49,7 @@ export default function Home() {
                 className={"flex items-center self-start mt-2 lg:self-center"}
               >
                 <Link
-                  href="/dummy.pdf"
+                  href="/Resume.pdf"
                   target="_blank"
                   className="
                   flex items-center bg-dark text-light
@@ -68,7 +68,7 @@ export default function Home() {
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base "
                   href=""
                 >
-                  Contact
+                  Contacto
                 </Link>
               </div>
             </div>
