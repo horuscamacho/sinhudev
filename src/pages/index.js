@@ -18,6 +18,7 @@ export default function Home() {
       <Head>
         <title>Sinhu - Dev</title>
         <meta name="description" content="" />
+        <meta content="#0891b2" name="theme-color" />
       </Head>
       <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">

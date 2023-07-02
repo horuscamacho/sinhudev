@@ -125,6 +125,7 @@ export default function Projects() {
           name="Proyectos"
           content="Ideas personales, proyectos para particulaes e ideas para practicar ."
         />
+        <meta content="#0891b2" name="theme-color" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center">

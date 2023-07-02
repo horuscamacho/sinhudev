@@ -42,6 +42,7 @@ export default function about() {
           name="description"
           content="En SinhuDev nadie es Sr y nadie es Jr todos somos desarrolladores."
         />
+        <meta content="#0891b2" name="theme-color" />
       </Head>
       <TransitionEffect />
 

@@ -111,6 +111,7 @@ export default function Articles() {
           name="description"
           content="Navegando en el código: Artículos para desarrolladores web."
         />
+        <meta content="#0891b2" name="theme-color" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
