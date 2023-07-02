@@ -156,12 +156,6 @@ export default function Articles() {
               date={"Julio 07, 2023"}
               link={"/"}
             />{" "}
-            <Article
-              title={"Ruta para convertirse en un desarrollador web"}
-              img={"https://i.postimg.cc/3JtWdPyr/Now-Open-5.png"}
-              date={"Julio 07, 2023"}
-              link={"/"}
-            />{" "}
           </ul>
         </Layout>
       </main>
