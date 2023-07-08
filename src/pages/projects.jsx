@@ -139,7 +139,7 @@ export default function Projects() {
               <FeaturedProject
                 title="Pokedex - API Start View Transition"
                 summary="Probando y conociendo la API que permite hacer efectos nativos entre navegaciones."
-                img={"https://i.postimg.cc/4d2bTgxs/pokedex.png"}
+                img={"https://i.postimg.cc/bJ2yTxW8/pokedex.png"}
                 link="https://pokedex.sinhu.dev"
                 github="https://github.com/horuscamacho/pokedex-astro"
                 type="Practice Project"
