@@ -137,11 +137,11 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Yard Store - React"
-                summary="Tienda en línea de productos con peticiones a API, carrito de compras."
-                img={"https://i.postimg.cc/V69sWM5W/My-day-app-1.png"}
-                link="https://www.google.com"
-                github="https://www.google.com"
+                title="Pokedex - API Start View Transition"
+                summary="Probando y conociendo la API que permite hacer efectos nativos entre navegaciones."
+                img={"https://i.postimg.cc/4d2bTgxs/pokedex.png"}
+                link="https://pokedex.sinhu.dev"
+                github="https://github.com/horuscamacho/pokedex-astro"
                 type="Practice Project"
               />
             </div>
@@ -168,6 +168,14 @@ export default function Projects() {
                 title="Twitter Clone - Next JS"
                 summary="Clon de Twitter con autenticación, registro de usuarios, comentarios, likes, follows etc."
                 img={"https://i.postimg.cc/3JyGg82f/My-day-app-5.png"}
+                link="https://www.google.com"
+                github="https://www.google.com"
+                type="Practice Project"
+              />
+              <FeaturedProject
+                title="Yard Store - React"
+                summary="Tienda en línea de productos con peticiones a API, carrito de compras."
+                img={"https://i.postimg.cc/V69sWM5W/My-day-app-1.png"}
                 link="https://www.google.com"
                 github="https://www.google.com"
                 type="Practice Project"
