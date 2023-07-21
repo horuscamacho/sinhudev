@@ -28,7 +28,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="sinhudev"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full"
+                className="w-5/6 h-auto lg:hidden md:inline-block md:w-full rounded-full"
                 priority
                 sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw,
