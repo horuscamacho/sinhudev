@@ -169,7 +169,7 @@ export default function NavBar() {
               toggle={handleClick}
             />
             <CustomMobileLink
-              href="/articles"
+              href="https://blog.sinhu.dev"
               title="Artículos"
               className=""
               toggle={handleClick}
