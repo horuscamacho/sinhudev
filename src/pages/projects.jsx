@@ -149,8 +149,8 @@ export default function Projects() {
               <Project
                 title="My Day App - Angular"
                 img="https://i.postimg.cc/Qx9VKBhV/My-day-app.png"
-                link="https://www.google.com"
-                github="https://www.google.com"
+                link="https://todo-app-6256a.web.app/"
+                github="https://github.com/horuscamacho/mydayapp-angular"
                 type="Practice Project"
               />
             </div>
@@ -158,8 +158,8 @@ export default function Projects() {
               <Project
                 title="API - Node JS"
                 img={"https://i.postimg.cc/s2WKKPS8/My-day-app-4.png"}
-                link="https://www.google.com"
-                github="https://www.google.com"
+                link="https://github.com/horuscamacho/back-node"
+                github="https://github.com/horuscamacho/back-node"
                 type="Practice Project"
               />
             </div>
@@ -168,15 +168,24 @@ export default function Projects() {
                 title="Twitter Clone - Next JS"
                 summary="Clon de Twitter con autenticación, registro de usuarios, comentarios, likes, follows etc."
                 img={"https://i.postimg.cc/3JyGg82f/My-day-app-5.png"}
-                link="https://www.google.com"
-                github="https://www.google.com"
-                type="Practice Project"
+                link=""
+                github=""
+                type="Practice Project - Next JS"
               />
+              <div className="col-span-6 sm:col-span-12">
+                <Project
+                  title="Blog Personal"
+                  img={"https://i.postimg.cc/HsmN2Hkq/blog.png"}
+                  link="https://blog.sinhu.dev"
+                  github="https://github.com/horuscamacho/blog-sinhudev"
+                  type="Personal Project"
+                />
+              </div>
               <FeaturedProject
                 title="Yard Store - React"
                 summary="Tienda en línea de productos con peticiones a API, carrito de compras."
                 img={"https://i.postimg.cc/V69sWM5W/My-day-app-1.png"}
-                link="https://www.google.com"
+                link="https://github.com/horuscamacho/react-shop"
                 github="https://www.google.com"
                 type="Practice Project"
               />
