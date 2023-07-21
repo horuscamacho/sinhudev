@@ -60,38 +60,6 @@ export default function Experience() {
             work="Durante el tiempo en el que realicé mis prácticas profesionales, identifiqué la necesidad de desarrollar una plataforma de gestión que facilitara la actualización y modificación de las normativas vigentes en el Estado de Hidalgo. Tanto en la parte del Front-end como en el Back-end, me di cuenta de la importancia de contar con un sistema que mejorara el procesamiento de estas modificaciones y permitiera la creación de una Biblioteca Digital más eficiente."
             companyLink="https://www.congreso-hidalgo.gob.mx/"
           />
-          <Details
-            position="Full Stack Developer"
-            company="Congreso del Estado de Hidalgo"
-            time={"2022 - Present"}
-            address="Pachuca, Hidalgo"
-            work="Durante el tiempo en el que realicé mis prácticas profesionales, identifiqué la necesidad de desarrollar una plataforma de gestión que facilitara la actualización y modificación de las normativas vigentes en el Estado de Hidalgo. Tanto en la parte del Front-end como en el Back-end, me di cuenta de la importancia de contar con un sistema que mejorara el procesamiento de estas modificaciones y permitiera la creación de una Biblioteca Digital más eficiente."
-            companyLink="https://www.congreso-hidalgo.gob.mx/"
-          />
-          <Details
-            position="Full Stack Developer"
-            company="Congreso del Estado de Hidalgo"
-            time={"2022 - Present"}
-            address="Pachuca, Hidalgo"
-            work="Durante el tiempo en el que realicé mis prácticas profesionales, identifiqué la necesidad de desarrollar una plataforma de gestión que facilitara la actualización y modificación de las normativas vigentes en el Estado de Hidalgo. Tanto en la parte del Front-end como en el Back-end, me di cuenta de la importancia de contar con un sistema que mejorara el procesamiento de estas modificaciones y permitiera la creación de una Biblioteca Digital más eficiente."
-            companyLink="https://www.congreso-hidalgo.gob.mx/"
-          />
-          <Details
-            position="Full Stack Developer"
-            company="Congreso del Estado de Hidalgo"
-            time={"2022 - Present"}
-            address="Pachuca, Hidalgo"
-            work="Durante el tiempo en el que realicé mis prácticas profesionales, identifiqué la necesidad de desarrollar una plataforma de gestión que facilitara la actualización y modificación de las normativas vigentes en el Estado de Hidalgo. Tanto en la parte del Front-end como en el Back-end, me di cuenta de la importancia de contar con un sistema que mejorara el procesamiento de estas modificaciones y permitiera la creación de una Biblioteca Digital más eficiente."
-            companyLink="https://www.congreso-hidalgo.gob.mx/"
-          />
-          <Details
-            position="Full Stack Developer"
-            company="Congreso del Estado de Hidalgo"
-            time={"2022 - Present"}
-            address="Pachuca, Hidalgo"
-            work="Durante el tiempo en el que realicé mis prácticas profesionales, identifiqué la necesidad de desarrollar una plataforma de gestión que facilitara la actualización y modificación de las normativas vigentes en el Estado de Hidalgo. Tanto en la parte del Front-end como en el Back-end, me di cuenta de la importancia de contar con un sistema que mejorara el procesamiento de estas modificaciones y permitiera la creación de una Biblioteca Digital más eficiente."
-            companyLink="https://www.congreso-hidalgo.gob.mx/"
-          />
         </ul>
       </div>
     </div>

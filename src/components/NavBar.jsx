@@ -34,14 +34,13 @@ const CustomLink = ({ href, title, className = "" }) => {
 const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   const router = useRouter();
 
-  const handleClick = () => {
+  const handleClick = async () => {
     toggle();
-    router.push(href);
+    await router.push(href);
   };
 
   return (
     <button
-      href={href}
       className={`${className} relative group text-light dark:text-dark my-2`}
       onClick={handleClick}
     >
@@ -92,7 +91,11 @@ export default function NavBar() {
         <nav>
           <CustomLink href="/about" title="Acerca" className="mr-4" />
           <CustomLink href="/projects" title="Proyectos" className="mx-4" />
-          <CustomLink href="/articles" title="Artículos" className="ml-4" />
+          <CustomLink
+            href="https://blog.sinhu.dev"
+            title="Artículos"
+            className="ml-4"
+          />
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
@@ -115,7 +118,7 @@ export default function NavBar() {
           </motion.a>
           <motion.a
             whileHover={{ y: -2 }}
-            href={"https://linkedin.com"}
+            href={"https://linkedin.com/horscamacho"}
             target={"_blank"}
             className="w-6 mx-3"
             whileTap={{ scale: 0.7 }}
@@ -124,7 +127,7 @@ export default function NavBar() {
           </motion.a>
           <motion.a
             whileHover={{ y: -2 }}
-            href={"https://github.com"}
+            href={"https://github.com/horuscamacho"}
             target={"_blank"}
             className="w-6 ml-3"
             whileTap={{ scale: 0.7 }}
@@ -193,7 +196,7 @@ export default function NavBar() {
             </motion.a>
             <motion.a
               whileHover={{ y: -2 }}
-              href={"https://linkedin.com"}
+              href={"https://linkedin.com/horscamacho"}
               target={"_blank"}
               className="w-6 mx-3 sm:mx-1"
               whileTap={{ scale: 0.7 }}
@@ -202,7 +205,7 @@ export default function NavBar() {
             </motion.a>
             <motion.a
               whileHover={{ y: -2 }}
-              href={"https://github.com"}
+              href={"https://github.com/horuscamacho"}
               target={"_blank"}
               className="w-6 ml-3 sm:mx-1"
               whileTap={{ scale: 0.7 }}
