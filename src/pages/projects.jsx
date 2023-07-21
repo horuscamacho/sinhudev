@@ -172,15 +172,17 @@ export default function Projects() {
                 github=""
                 type="Practice Project - Next JS"
               />
-              <div className="col-span-6 sm:col-span-12">
-                <Project
-                  title="Blog Personal"
-                  img={"https://i.postimg.cc/HsmN2Hkq/blog.png"}
-                  link="https://blog.sinhu.dev"
-                  github="https://github.com/horuscamacho/blog-sinhudev"
-                  type="Personal Project"
-                />
-              </div>
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Blog Personal"
+                img={"https://i.postimg.cc/HsmN2Hkq/blog.png"}
+                link="https://blog.sinhu.dev"
+                github="https://github.com/horuscamacho/blog-sinhudev"
+                type="Personal Project"
+              />
+            </div>
+            <div className="col-span-12">
               <FeaturedProject
                 title="Yard Store - React"
                 summary="Tienda en línea de productos con peticiones a API, carrito de compras."
