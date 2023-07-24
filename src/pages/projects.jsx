@@ -182,6 +182,15 @@ export default function Projects() {
                 type="Personal Project"
               />
             </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Food App - Next JS"
+                img={"https://i.postimg.cc/651QRnL5/pizza.png"}
+                link="https://pizza-restaurant.sinhu.dev/"
+                github="https://github.com/horuscamacho/pizza-restaurant"
+                type="Personal Project"
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
                 title="Yard Store - React"
