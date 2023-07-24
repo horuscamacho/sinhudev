@@ -197,8 +197,17 @@ export default function Projects() {
                 summary="Tienda en línea de productos con peticiones a API, carrito de compras."
                 img={"https://i.postimg.cc/V69sWM5W/My-day-app-1.png"}
                 link="https://github.com/horuscamacho/react-shop"
-                github="https://www.google.com"
+                github="https://github.com/horuscamacho/react-shop"
                 type="Practice Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Wikki Search - Next JS"
+                img={"https://i.postimg.cc/vB2GwdmL/wikki.png"}
+                link="https://wikkirocket.sinhu.dev/"
+                github="https://github.com/horuscamacho/wikkiSearch"
+                type="Personal Project"
               />
             </div>
           </div>
