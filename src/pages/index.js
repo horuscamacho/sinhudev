@@ -9,6 +9,7 @@ import { ArrowCV } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import mac from "../../public/images/svgs/mac.svg";
 import TransitionEffect from "@/components/TransitionEffect";
+import Form from "@/components/Form";
 
 const inter = Inter({ subsets: ["latin"] });
 
